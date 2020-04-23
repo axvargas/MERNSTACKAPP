@@ -22,7 +22,7 @@ git push heroku master
 Si se usa mLab MongoDB, para improtar un archivo .json local usar:
 Esta es al estrcutra pero copar el comando que da el portal de mLab de la DB creada
 Se tiene que crear un usuario que no sea solo de lectura (usuario solo en minisculas contraseña no importa) 
-mongoimport -h ds117859.mlab.com:17859 -d heroku_shf4dscg -c tasks -u <user> -p <password> --file <Ruta del archivo>
+mongoimport -h ds117859.mlab.com:17859 -d heroku_shf4dscg -c <nombre de la coleccion> -u <user> -p <password> --file <Ruta del archivo>
 
 Script útiles
 
